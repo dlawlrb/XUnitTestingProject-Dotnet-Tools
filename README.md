@@ -1,9 +1,9 @@
-# XUnitTestingProject-Dotnet-Tools
+# xUnitTestingProject-Dotnet-Tools
 ## Overview
-ASP.NET CORE(.NET5) 에서 여러 테스트를 지원하는 XUnit 프레임워크, Mock 패키지를 이용하여 유닛 테스트, 통합 테스트( + 기능 테스트) 를 간단한 형태로 구성해보았다.
+ASP.NET CORE(.NET5) 에서 여러 테스트를 지원하는 xUnit 프레임워크, Mock 패키지를 이용하여 유닛 테스트, 통합 테스트( + 기능 테스트) 를 간단한 형태로 구성해보았다.
 이번에 집중한 내용은
 - 테스트 유형별 차이점
-- XUnit, Mock를 이용한 테스트 프로젝트 구현 방법
+- xUnit, Mock를 이용한 테스트 프로젝트 구현 방법
 - 애플리케이션, 테스트 프로젝트의 명확한 역할을 나타내기 위한 디렉토리(패키지) 구성 방법
 - 테스트의 목적과 역할을 명확히 나타내기 위한 명명규칙
 
@@ -40,7 +40,7 @@ CatalogControllerGetImage.ReturnsFileResultWithBytesGivenSuccess
 CatalogControllerGetImage.ReturnsNotFoundResultGivenImageMissingException
 
 ## 결론
-닷넷의 대표적인 테스트 프레임워크인 XUnit FrameWork 를 사용하여 테스트 프로젝트를 구성해보았다.
+닷넷의 대표적인 테스트 프레임워크인 xUnit FrameWork 를 사용하여 테스트 프로젝트를 구성해보았다.
 또한 실무나 대규모 프로젝트에서 사용될 수 있도록 명확한 역할을 나타내거나 공간을 분리하는 여러 규칙들을 배웠다.
 이를 기반으로 다음 프로젝트에서는 방대해진 비즈니스 로직을 위한 테스트들을 더 강화하고 
 AWS CodeBuild 같은 CI/CD 과정에서 테스트 자동화까지 구성할 수 있을 것으로 기대한다.
